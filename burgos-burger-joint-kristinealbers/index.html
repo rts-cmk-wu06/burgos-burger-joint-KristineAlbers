@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/indexx.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="indexx.js" defer></script>
+    <script src="kontakt.js" defer></script>
+    <script src="js.js" defer></script>
+   <title>Home</title>
+</head>
+
+<body>
+    <header class="header">
+        <img class="hero" src="img/hero01.jpg" alt="">
+        <div class="orange-color"></div>
+        <a class="menu-logo" href="index.html"><img src="img/burger_ikon.png" alt="Logo">BURGOS</a>
+        <nav>
+            <ul class="ul">
+                <li class="li"><a class="menu-link" href="index.html">Home</a></li>
+                <li class="li"><a class="menu-link" href="index.html">Gallery</a></li>
+                <li class="li"><a class="menu-link" href="index.html">Anbefalede</a></li>
+                <li class="li"><a class="menu-link" href="index.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <h2 class="header-h2">Vælg Din Farvorit Yummi</h2>
+        <button class="header-btn">START</button>
+    </header>
+
+    <main class="main">
+        <img class="reklame" src="img/reklame01.jpg" alt="reklame">
+
+        <section class="gallery">
+            <figure class="large"> <!--vis det store billede-->
+                <img id="large-image" src="img/galleri04.jpg" alt="">
+            </figure>
+    
+            <figure class="grid-container"> <!--vis de små billeder-->
+                <img class="thumbnail" src="img/galleri04.jpg" alt="">
+                <img class="thumbnail" src="img/galleri05.jpg" alt="">
+                <img class="thumbnail" src="img/galleri05.jpg" alt="">
+            </figure> 
+        </section>
+    
+        <article class="main-article">
+            <h4 class="h4-overskrif">Vores YUMMI opskrif</h4>
+            <p class="main-article-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, recusandae deserunt cum voluptas quos autem dicta similique placeat modi id reiciendis nihil veritatis est et asperiores aut minus error, doloremque, amet dolorum. Non aut omnis et voluptate illum quo recusandae delectus, vel consequatur rerum, modi id velit aliquam accusantium eius dicta nemo explicabo? Sapiente ipsa adipisci officiis labore veniam minus laudantium! Iusto labore repellendus accusantium et consequuntur quibusdam quo ad.<br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates ad eum quas! Cum soluta natus illo? Id praesentium velit libero impedit iste at nostrum, necessitatibus sequi porro recusandae tempore sunt, numquam ipsa eligendi aut odit quo eius? Architecto blanditiis animi ex illo ipsam, molestiae magni assumenda. </p>
+            <p class="main-article-p">Molestias consequuntur atque architecto hic iusto alias harum sequi dolores provident. Odit obcaecati pariatur nulla minima fugiat perspiciatis? Ut aperiam iure suscipit repellat? Accusantium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque facilis accusamus sunt fugit odio error neque eius, reprehenderit soluta ipsam.</p>
+        </article>
+
+        <aside class="aside">
+            <h2 class="anbefalede">ANBEFALEDE YUMMIES</h2>
+            
+            <div class="favorit favorit1">
+                <img class="favorit-img favorit-img1" src="img/favorit01.jpg" alt="">
+                <h3>Super Vegan</h3>
+                <p>70 kr.</p>
+                <button><img src="img/burger_ikon (1).png" alt=""> FAVORIT</button>
+            </div>
+
+            <div class="favorit favorit2">
+                <img class="favorit-img favorit-img2" src="img/favorit01.jpg" alt="">
+                <h3>Super Vegan</h3>
+                <p>70 kr.</p>
+                <button><img src="img/burger_ikon (1).png" alt=""> FAVORIT</button>
+            </div>
+
+            <div class="favorit favorit3">
+                <img class="favorit-img favorit-img3" src="img/favorit01.jpg" alt="">
+                <h3>Super Vegan</h3>
+                <p>70 kr.</p>
+                <button><img src="img/burger_ikon (1).png" alt=""> FAVORIT</button>
+            </div>
+
+            <div class="favorit favorit4">
+                <img class="favorit-img favorit-img4" src="img/favorit01.jpg" alt="">
+                <h3>Super Vegan</h3>
+                <p>70 kr.</p>
+                <button><img src="img/burger_ikon (1).png" alt=""> FAVORIT</button>
+            </div>
+        </aside>
+
+        <form class="kontakt" method="post" name="kontakt" id="kontakt" onsubmit="return valider(this);">
+            <h2 class="kontakt-h2">KONTAKT</h2>
+            <div class="navn">
+                <label for="navn"></label>
+                <input placeholder="Navn" type="text" name="navn" id="navn">
+            </div>
+            
+            <div class="email">
+                <label for="email"></label>
+                <input placeholder="Email" type="text" name="email" id="email">
+            </div>
+
+            <div class="besked">
+                <label for="besked"></label>
+                <textarea placeholder="Skriv din besked her" name="besked" id="besked" cols="50" rows="6"></textarea>
+            </div>
+         
+            <div class="send">
+                <button id="send">Send</button>
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <img class="footer-img" src="img/footer01.png" alt="">
+        <div class="footer-container">
+            <h3 class="white-tekst">FØLG OS PÅ INSTAGRAM</h3>
+            <p class="white-tekst">@BURGOS_YUMMIES</p>
+        </div> 
+        <p class="p-ophavsret">Yummi © Burgos burgers Aps - all rights reserved Copyrights 2021</p>
+    </footer>
+    
+</body>
+</html>
